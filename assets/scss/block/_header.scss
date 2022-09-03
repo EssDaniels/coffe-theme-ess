@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    margin: 12px 24px;
+    height: 100%;
+    max-width: 150px;
+    span {
+      img {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+  &__menu {
+    margin: 12px 24px;
+  }
+}
