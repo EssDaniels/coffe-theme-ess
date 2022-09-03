@@ -1,8 +1,8 @@
-# Starter pack - Theme wordpress 1.0
+# Coffee Theme - ver 1.0
 
 # Requirements
 
-This starter pack theme requires:
+This Coffee Theme theme requires:
 
 - wordpress 6.0
 - php 7.4
