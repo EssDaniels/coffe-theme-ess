@@ -1,0 +1,39 @@
+.koszyk {
+  background-image: url("../images/koszyk.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6px 26px;
+  background-size: 28px;
+  transition: 0.3s ease;
+  &:hover {
+    background-size: 30px;
+  }
+}
+.express {
+  background-image: url("../images/express.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 100px;
+}
+.kawiarka {
+  background-image: url("../images/kawiarka.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.zaparzacz {
+  background-image: url("../images/zaparzacz.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.instagram {
+  background-image: url("../images/instagram.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.facebook {
+  background-image: url("../images/facebook.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
