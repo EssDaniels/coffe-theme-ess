@@ -1,0 +1,58 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  &__background-img {
+    position: absolute;
+    width: 100%;
+  }
+  &__description {
+    margin-top: 284px;
+    @media (max-width: 900px) {
+      margin-top: 24px;
+    }
+    h2 {
+      font-family: $font-bungee;
+      font-size: 40px;
+      line-height: 48px;
+      color: $color-green;
+    }
+    span {
+      position: relative;
+      img {
+        position: absolute;
+        // width: 423px;
+        // height: 136px;
+        @media (max-width: 700px) {
+          position: static;
+          height: auto;
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__product {
+    position: relative;
+    margin-top: 200px;
+    height: 345px;
+    width: 291px;
+    border: 17px solid $color-green;
+    margin-right: 24px;
+    @media (max-width: 700px) {
+      width: 100%;
+      max-width: 320px;
+    }
+    img {
+      position: absolute;
+      top: -33px;
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+    }
+  }
+}
