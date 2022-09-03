@@ -1,0 +1,35 @@
+.mapa {
+  padding: 200px 90px;
+  background-image: url("../images/O kawie.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  @media (max-width: 900px) {
+    padding: 100px 24px 24px 24px;
+    flex-direction: column;
+  }
+  &__col {
+    flex-basis: 50%;
+    margin-left: 24px;
+    margin-right: 24px;
+    h2 {
+      color: $color-green;
+      font-family: $font-bungee;
+      font-size: 60px;
+      line-height: 72px;
+      @media (max-width: 700px) {
+        font-size: 40px;
+        line-height: 45px;
+      }
+      @media (max-width: 400px) {
+        font-size: 32px;
+        line-height: 35px;
+      }
+    }
+    p {
+      font-family: $font-primary;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+}

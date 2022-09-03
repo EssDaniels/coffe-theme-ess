@@ -1,0 +1,48 @@
+.opinion {
+  background-color: $color-green;
+  position: relative;
+  &__title {
+    position: absolute;
+    background-color: white;
+    padding: 16px 24px;
+    font-family: $font-bungee;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 28px;
+    color: $color-green;
+    top: -32px;
+    left: 10%;
+    @media (max-width: 700px) {
+      position: static;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    padding-top: 62px;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    margin-bottom: 126px;
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
+  }
+  &__box {
+    background-image: url("../images/box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 25%;
+    color: white;
+    padding: 24px 29px;
+    @media (max-width: 700px) {
+      margin-bottom: 24px;
+    }
+  }
+  &__nick {
+    margin-bottom: 24px;
+  }
+}

@@ -10,3 +10,16 @@
 </head>
 
 <body>
+    <div class="header">
+        <div class="header__logo">
+            <?php
+            if (function_exists('the_custom_logo')) {
+                the_custom_logo();
+            }
+            ?>
+        </div>
+        <div class="header__category">
+            <?php wp_nav_menu(['theme_location' => 'main_menu']); ?>
+        </div>
+        <a href="" class="header__shopping-cart koszyk"></a>
+    </div>

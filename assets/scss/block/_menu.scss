@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  @media (max-width: 700px) {
+    flex-wrap: wrap;
+  }
+  li {
+    a {
+      font-family: $font-secondary;
+      font-size: 20px;
+      color: $color-green;
+      text-decoration: none;
+      margin-right: 40px;
+      padding: 6px 12px;
+      border: 1px solid white;
+      &:hover {
+        border: 1px solid $color-green;
+      }
+    }
+  }
+}

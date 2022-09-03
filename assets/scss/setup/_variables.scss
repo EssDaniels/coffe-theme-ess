@@ -1,4 +1,13 @@
-$font-primary: "lato", sans-serif;
+//fonts
+$font-primary: "poppins", sans-serif;
+$font-secondary: "kanit", sans-serif;
+$font-bungee: "bungee", sans-serif;
+
+//color
+$color-green: #1b2b1b;
+$bg-color: #909d93;
+$bg-btn: #d6d6c7;
+$bg-footer: #8da593;
 
 $palette: (
   white: #ffffff,
@@ -40,11 +49,6 @@ $palette: (
 
 // border-radius
 $radius: 6px;
-
-// color style
-$color-blue: #1a0163;
-
-//fonts
 
 $margins: (
   0,

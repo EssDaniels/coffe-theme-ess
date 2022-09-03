@@ -4,6 +4,10 @@
 .font-primary {
   font-family: $font-primary;
 }
+%font-secondary,
+.font-primary {
+  font-family: $font-secondary;
+}
 
 %typo-h1,
 .typo-h1,
