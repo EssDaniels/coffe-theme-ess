@@ -1,0 +1,13 @@
+.social {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  li {
+    height: 78px;
+    width: 81px;
+    margin: 12px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

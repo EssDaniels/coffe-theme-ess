@@ -1,0 +1,13 @@
+.mark {
+  list-style: none;
+  padding: 0;
+  li {
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
